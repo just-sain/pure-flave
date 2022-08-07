@@ -1,0 +1,75 @@
+@import './variables.css';
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+
+	transition: background 0.4s ease 0s, color 0.4s ease 0s, border 0.4s ease 0s;
+}
+
+html,
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200; // 300, 600
+	// font-family: 'Syne', sans-serif;
+	// 600
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+}
+
+// reset styles
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+input,
+textarea,
+button {
+	background: none;
+	border: none;
+
+	color: inherit;
+	font-family: inherit;
+}
+
+input::placeholder,
+textarea::placeholder {
+	color: inherit;
+	font-family: inherit;
+}
+
+// scrollbar
+::-webkit-scrollbar-track {
+	border-radius: 0.15rem;
+	background-color: var(--gray-light);
+}
+
+::-webkit-scrollbar {
+	width: 0.4rem;
+	border-radius: 0.1rem;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 1rem;
+	background-color: var(--gray);
+}
+
+// global default classes
+._container {
+	max-width: 115rem;
+	width: 100%;
+	margin: 0 auto;
+}

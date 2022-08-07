@@ -1,0 +1,45 @@
+.footer {
+	width: 100%;
+}
+
+// first block
+.infoContainer {
+	padding: 3.5rem 0;
+
+	border-top: 0.1rem solid var(--primary);
+	border-bottom: 0.1rem solid var(--primary);
+}
+
+.info {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.title {
+	color: var(--primary);
+	font-family: var(--second-font-family);
+}
+
+// second block
+.createdBy {
+	width: 100%;
+	padding: 0.8rem;
+
+	background: var(--lavender);
+
+	color: var(--primary);
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 1.4rem;
+	font-weight: 300;
+
+	a {
+		text-decoration: underline;
+	}
+}

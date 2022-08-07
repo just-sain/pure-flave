@@ -1,24 +1,36 @@
 {
-  "name": "online-store",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "12.2.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "@types/node": "18.6.3",
-    "@types/react": "18.0.15",
-    "@types/react-dom": "18.0.6",
-    "eslint": "8.21.0",
-    "eslint-config-next": "12.2.3",
-    "typescript": "4.7.4"
-  }
+	"name": "pure-flave",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"eslint": "eslint . --ext --fix .js,.jsx,.ts,.tsx"
+	},
+	"dependencies": {
+		"@reduxjs/toolkit": "^1.8.3",
+		"axios": "^0.27.2",
+		"framer-motion": "^6.5.1",
+		"next": "12.2.3",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-hook-form": "^7.34.0",
+		"react-redux": "^8.0.2"
+	},
+	"devDependencies": {
+		"@svgr/webpack": "^6.3.1",
+		"@types/node": "18.6.3",
+		"@types/react": "18.0.15",
+		"@types/react-dom": "18.0.6",
+		"@typescript-eslint/eslint-plugin": "^5.32.0",
+		"@typescript-eslint/parser": "^5.32.0",
+		"classnames": "^2.3.1",
+		"eslint": "8.21.0",
+		"eslint-config-next": "12.2.3",
+		"husky": "^8.0.1",
+		"node-sass": "^7.0.1",
+		"sass": "^1.54.2",
+		"typescript": "4.7.4"
+	}
 }
