@@ -25,14 +25,12 @@ const Layout = ({ children }: ILayoutProps) => {
 	return (
 		<>
 			<Head>
-				<link key={'themeMode'} rel="stylesheet" href={themeMode === 'dark' ? '/mode/dark.css' : '../mode/light.css'} />
+				<link key={'themeMode'} rel='stylesheet' href={themeMode === 'dark' ? '/mode/dark.css' : '../mode/light.css'} />
 			</Head>
 			<div className={styles.wrapper}>
 				<Header alertMessage={'FREE SHIPPING ON ORDERS OVER $75'} />
 				<div>
-					<main className={cn(styles.main, '_container')}>
-						{children}
-					</main>
+					<main className={cn(styles.main, '_container')}>{children}</main>
 				</div>
 				<Footer />
 			</div>

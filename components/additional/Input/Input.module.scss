@@ -1,0 +1,70 @@
+.field {
+	width: 100%;
+	position: relative;
+}
+
+.label {
+	padding-left: 0.5rem;
+	display: block;
+
+	color: var(--black);
+	text-transform: capitalize;
+	font-size: 1.8rem;
+}
+
+.required {
+	color: var(--primary);
+	text-transform: capitalize;
+}
+
+.input {
+	width: 100%;
+	margin-top: 0.5rem;
+	padding: 0.5rem;
+	display: block;
+
+	outline: none;
+	background: none;
+	border-bottom: 0.1rem solid var(--primary);
+
+	color: var(--black);
+	font-size: 1.8rem;
+	font-weight: 300;
+
+	transition: border-bottom 0.3s ease 0s, color 0.3s ease 0.2s;
+
+	&:focus {
+		border-bottom: 0.3rem solid var(--black);
+		color: var(--primary);
+
+		&::placeholder {
+			color: var(--primary);
+		}
+	}
+
+	&:hover {
+		border-color: var(--primary-light);
+	}
+}
+
+.trouble {
+	border-bottom: 0.3rem solid var(--red);
+}
+
+.error {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	padding: 0.5rem;
+
+	border-left: 0.5rem solid var(--red);
+
+	color: var(--red);
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 1.4rem;
+	font-weight: 600;
+
+	transform: translateY(-100%);
+}

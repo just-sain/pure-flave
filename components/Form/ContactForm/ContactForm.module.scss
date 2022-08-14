@@ -1,0 +1,9 @@
+.form {
+	display: grid;
+	grid-template-columns: [start] 1fr [middle] 1fr [end];
+	gap: 3.5rem;
+}
+
+.full {
+	grid-column: start / end;
+}

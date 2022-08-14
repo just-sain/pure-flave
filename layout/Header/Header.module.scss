@@ -15,18 +15,20 @@
 	font-size: 1.2rem;
 }
 
-.navContainer {
+.navBlock {
 	padding: 3rem;
 
 	border-top: 0.1rem solid var(--primary);
 	border-bottom: 0.1rem solid var(--primary);
-}
 
-.navBlock {
 	display: grid;
-	grid-template-columns: auto 1fr auto;
+	grid-template-columns: auto minmax(auto, var(--container-width)) auto;
+	justify-content: space-evenly;
 	align-items: center;
 	gap: 3rem;
+
+	@media only screen and (max-width: 600px) {
+	}
 }
 
 .nav {
@@ -73,7 +75,7 @@
 
 .userBlock {
 	display: grid;
-	grid-template-columns: 2.2rem 2.2rem 2.2rem;
+	grid-template-columns: 2.2rem 1fr 2.2rem;
 	align-items: center;
 	gap: 3rem;
 }
@@ -81,6 +83,12 @@
 .themeMode,
 .logIn,
 .cart {
+	padding-bottom: 1rem;
+
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+
 	cursor: pointer;
 
 	position: relative;

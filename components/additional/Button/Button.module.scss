@@ -60,3 +60,20 @@
 		color: var(--bg);
 	}
 }
+
+.red {
+	border: 0.1rem solid var(--red);
+	background: var(--bg);
+	color: var(--red);
+
+	transition: background 0.3s ease 0s, color 0.3s ease 0s;
+
+	&:hover {
+		background: var(--red);
+		color: var(--bg);
+	}
+}
+
+.fullSize {
+	width: 100%;
+}

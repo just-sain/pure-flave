@@ -2,9 +2,8 @@
 	--main-font-family: 'Poppins', sans-serif;
 	--second-font-family: 'Syne', sans-serif;
 
-	--primary: #3d5a23;
-	--primary-light: #d8ebc7;
+	--container-width: 125rem;
+
 	--secondary: #fcc077;
 	--red: #fa9878;
-	--lavender: #e2e2f2;
 }

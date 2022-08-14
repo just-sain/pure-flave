@@ -1,0 +1,21 @@
+.shop {
+	width: 100%;
+}
+
+.title {
+	width: 50%;
+}
+
+.rareWord {
+	width: 50%;
+	margin-top: 3rem;
+}
+
+.products {
+	margin-top: 3rem;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: space-between;
+	gap: 5vw;
+}

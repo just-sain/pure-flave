@@ -12,9 +12,9 @@ class MyDocument extends Document {
 				<Head>
 					<meta name='description' content='Owl way | by just.sain' />
 					<link rel='icon' href='/favicon.ico' />
-					<link rel="preconnect" href="https://fonts.googleapis.com" />
-					<link rel="preconnect" href="https://fonts.gstatic.com" />
-					<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Syne:wght@700&display=swap" rel="stylesheet" />
+					<link rel='preconnect' href='https://fonts.googleapis.com' />
+					<link rel='preconnect' href='https://fonts.gstatic.com' />
+					<link href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Syne:wght@700&display=swap' rel='stylesheet' />
 				</Head>
 				<body>
 					<Main />

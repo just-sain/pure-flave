@@ -8,7 +8,6 @@ import Head from 'next/head';
 import { News } from '../components/page';
 
 const Home: NextPage<IHomeProps> = ({ news }) => {
-	console.log(process.env.NEXT_PUBLIC_DOMAIN);
 	return (
 		<>
 			<Head>

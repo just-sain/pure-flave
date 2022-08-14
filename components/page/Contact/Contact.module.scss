@@ -1,0 +1,26 @@
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: space-between;
+	align-items: stretch;
+	gap: 15vw;
+}
+
+.infoFrag {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 2rem;
+}
+
+.ways {
+	display: grid;
+	grid-template-columns: [start] 1fr [middle] 1fr [end];
+	gap: 2rem;
+}
+
+.way {
+	> span {
+		display: block;
+	}
+}
