@@ -48,7 +48,7 @@ export const Title = ({ className, children, tag, color = 'black', ...props }: I
 			</h4>
 		);
 	} else {
-		console.warn("you don't select tag type!!!");
+		console.warn('you don`t select tag type!!!');
 		return <></>;
 	}
 };
